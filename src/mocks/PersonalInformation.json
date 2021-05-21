@@ -1,0 +1,33 @@
+{
+  "code": 0,
+  "msg": "",
+  "data": {
+    "Profile": {
+      "Fullname": "test en",
+      "": "test th", 
+      "brithday": "03 May 1980"
+    },
+    "National": {
+      "Nationality": "Thai",
+      "Gender": "Female",
+      "Status": "Single",
+      "Ocupation": "Teacher"
+    },
+    "Contact": {
+      "Phone number": "092-223-4456, 097-332-8980",
+      "E-mail": "James@gmail.com",
+      "Address": "30 Soi.Ari 6 Samsean Nai Phiyathai Bangkok 10300"
+    },
+    "Referral": {
+      "Recommended by": "Friends",
+      "Refer friends": "Ornjira Thungtrakoolchai"
+    },
+    "Works": [
+      {
+        "Company": "Loyalty Program &CRM",
+        "Position": "UX UI Designer",
+        "Period": "13 May 2020-Present"
+      }
+    ]
+  }
+}
