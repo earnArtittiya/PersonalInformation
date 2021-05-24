@@ -27,7 +27,7 @@ const useStyles1 = makeStyles((theme) => ({
 export default function Teble() {
   const [personalInformation, setPersonalInformation] = useState();
   const [editProfile, setEditProfile] = useState(false);
-
+  const [add,setAdd]=useState([]);
   async function fetchPersonalInformation() {
     setPersonalInformation(mocksPersonalInformation.data);
   }
@@ -75,8 +75,9 @@ export default function Teble() {
 
       <Button
         onClick={(event) => {
-          add.Works.length = 0;
+          add.Works = [];
           add.Works = [...add.Works, { company: "", position: "", period: "" }];
+          setAdd(add.Works)
         }}
         variant="contained"
         color="primary"
