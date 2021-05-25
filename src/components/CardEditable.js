@@ -11,13 +11,13 @@ import TextField from "@material-ui/core/TextField";
 import Typography from "@material-ui/core/Typography";
 
 const useStyles = makeStyles((theme) => ({
-  root: {
-    margin: theme.spacing(2),
-    minWidth: 275,
-    maxWidth: 600,
-    backgroundColor: "#fafafa",
-    border: "None",
-  },
+  // root: {
+  //   margin: theme.spacing(2),
+  //   minWidth: 275,
+  //   maxWidth: 600,
+  //   backgroundColor: "#fafafa",
+  //   border: "None",
+  // },
   key: {
     padding: theme.spacing(1),
     textAlign: "left",

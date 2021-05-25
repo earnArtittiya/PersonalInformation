@@ -1,9 +1,9 @@
 import './App.css';
-import Teble from './Teble'
+import Table from './Table'
 function App() {
   return (
     <div className="App">
-    <Teble></Teble>
+    <Table></Table>
     </div>
   );
 }

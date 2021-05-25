@@ -11,19 +11,18 @@ import Menu from "@material-ui/core/Menu";
 import Button from "@material-ui/core/Button";
 const useStyles = makeStyles((theme) => ({
   root: {
-    margin: theme.spacing(2),
     minWidth: 275,
     maxWidth: 600,
     backgroundColor: "#fafafa",
     border: "None",
   },
   key: {
-    padding: theme.spacing(1),
+    // padding: theme.spacing(1),
     textAlign: "left",
     color: theme.palette.text.secondary,
   },
   value: {
-    padding: theme.spacing(1),
+    // padding: theme.spacing(1),
     textAlign: "left",
     color: theme.palette.text.secondary,
   },
@@ -35,7 +34,7 @@ const useStyles = makeStyles((theme) => ({
     color: "#f49628",
   },
   CardEdit: {
-    marginLeft: theme.spacing(50),
+    // marginLeft: theme.spacing(50),
     width: "25ch",
   },
 }));
@@ -51,7 +50,7 @@ export default function CardBasic(props) {
     setAnchorEl(null);
   };
   return (
-    <Card className={classes.root} variant="outlined">
+    <Card className={props.CardBasic} variant="outlined">
       <CardContent>
         <Grid container spacing={0}>
           {Object.entries(props.value).map(([key, val], i) => {
